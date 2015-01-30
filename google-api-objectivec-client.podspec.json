@@ -8,7 +8,7 @@
   },
   "homepage": "https://code.google.com/p/google-api-objectivec-client/",
   "source": {
-    "git": "https://github.com/georgelin422/google-api-objectivec-client.git",
+    "git": "https://github.com/georgelin422/google-api-objectivec-client.git"
   },
   "summary": "Google APIs Client Library for Objective-C",
   "description": "                    Written by Google, this library is a flexible and efficient Objective-C\n                    framework for accessing JSON APIs.\n\n                    This is the recommended library for accessing JSON-based Google APIs\n                    for iOS and Mac OS X applications.\n                    \n                    This version can be used with iOS ≥ 5.0 or OS X ≥ 10.7.\n                    To target earlier versions of iOS or OS X, use\n\n                    pod 'Google-API-Client', '~> 1.0.418'\n                    \n                    podspec version based on source SVN revision\n",
