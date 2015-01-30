@@ -11,7 +11,7 @@
     "git": "https://github.com/georgelin422/google-api-objectivec-client.git"
   },
   "summary": "Google APIs Client Library for Objective-C",
-  "description": "                    Written by Google, this library is a flexible and efficient Objective-C\n                    framework for accessing JSON APIs.\n\n                    This is the recommended library for accessing JSON-based Google APIs\n                    for iOS and Mac OS X applications.\n                    \n                    This version can be used with iOS ≥ 5.0 or OS X ≥ 10.7.\n                    To target earlier versions of iOS or OS X, use\n\n                    pod 'Google-API-Client', '~> 1.0.418'\n                    \n                    podspec version based on source SVN revision\n",
+  "description": "                    Written by Google, this library is a flexible and efficient Objective-C\n                    framework for accessing JSON APIs.\n\n                    This is the recommended library for accessing JSON-based Google APIs\n                    for iOS and Mac OS X applications.\n                    \n                    This version can be used with iOS ≥ 5.0 or OS X ≥ 10.7.\n                    To target earlier versions of iOS or OS X, use\n\n                    pod 'google-api-objectivec-client', '~> 1.0.418'\n                    \n                    podspec version based on source SVN revision\n",
   "platforms": {
     "ios": "5.0",
     "osx": "10.7"
@@ -37,7 +37,7 @@
     {
       "name": "AdSense",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -47,7 +47,7 @@
     {
       "name": "Analytics",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -57,7 +57,7 @@
     {
       "name": "AppState",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -67,7 +67,7 @@
     {
       "name": "Bigquery",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -77,7 +77,7 @@
     {
       "name": "Blogger",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -87,7 +87,7 @@
     {
       "name": "Books",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -97,7 +97,7 @@
     {
       "name": "Calendar",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -107,7 +107,7 @@
     {
       "name": "CivicInfo",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -117,7 +117,7 @@
     {
       "name": "Compute",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -127,7 +127,7 @@
     {
       "name": "Discovery",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -137,7 +137,7 @@
     {
       "name": "DoubleClickBidManager",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -147,7 +147,7 @@
     {
       "name": "Drive",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -157,7 +157,7 @@
     {
       "name": "Groupssettings",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -167,7 +167,7 @@
     {
       "name": "Licensing",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -177,7 +177,7 @@
     {
       "name": "MapsEngine",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -187,7 +187,7 @@
     {
       "name": "Mirror",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -197,7 +197,7 @@
     {
       "name": "Orkut",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -207,7 +207,7 @@
     {
       "name": "Plus",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -217,7 +217,7 @@
     {
       "name": "PlusDomains",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -227,7 +227,7 @@
     {
       "name": "Prediction",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -237,7 +237,7 @@
     {
       "name": "QPXExpress",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -247,7 +247,7 @@
     {
       "name": "SQLAdmin",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -257,7 +257,7 @@
     {
       "name": "Spectrum",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -267,7 +267,7 @@
     {
       "name": "Storage",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -277,7 +277,7 @@
     {
       "name": "Tasks",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -287,7 +287,7 @@
     {
       "name": "Urlshortener",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -297,7 +297,7 @@
     {
       "name": "YouTube",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
@@ -307,7 +307,7 @@
     {
       "name": "YouTubeAnalytics",
       "dependencies": {
-        "Google-API-Client/Common": [
+        "google-api-objectivec-client/Common": [
 
         ]
       },
