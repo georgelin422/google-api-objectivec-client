@@ -83,7 +83,7 @@ static NSString *ETagIfPresent(GTLObject *obj) {
 //
 // We locally declare some methods of the upload fetcher so we
 // do not need to import the header, as some projects may not have it available
-@interface GTLUploadFetcherClass : GTMBridgeFetcher
+@interface GTLUploadFetcher2Class : GTMBridgeFetcher
 
 #if GTL_USE_SESSION_FETCHER
 + (instancetype)uploadFetcherWithRequest:(NSURLRequest *)request
@@ -139,7 +139,7 @@ static NSString *ETagIfPresent(GTLObject *obj) {
 - (GTLObject *)mergedNewResultObject:(GTLObject *)newResult
                      oldResultObject:(GTLObject *)oldResult
                             forQuery:(GTLQuery *)query;
-- (GTLUploadFetcherClass *)uploadFetcherWithRequest:(NSURLRequest *)request
+- (GTLUploadFetcher2Class *)uploadFetcherWithRequest:(NSURLRequest *)request
                                     fetcherService:(GTMBridgeFetcherService *)fetcherService
                                             params:(GTLUploadParameters *)uploadParams;
 + (void)invokeCallback:(SEL)callbackSel
@@ -588,7 +588,7 @@ static NSString *ETagIfPresent(GTLObject *obj) {
   return ticket;
 }
 
-- (GTLUploadFetcherClass *)uploadFetcherWithRequest:(NSURLRequest *)request
+- (GTLUploadFetcher2Class *)uploadFetcherWithRequest:(NSURLRequest *)request
                                      fetcherService:(GTMBridgeFetcherService *)fetcherService
                                              params:(GTLUploadParameters *)uploadParams {
   // Hang on to the user's requested chunk size, and ensure it's not tiny
@@ -615,7 +615,7 @@ static NSString *ETagIfPresent(GTLObject *obj) {
   NSURL *uploadLocationURL = uploadParams.uploadLocationURL;
 
   // Create the upload fetcher.
-  GTLUploadFetcherClass *fetcher;
+  GTLUploadFetcher2Class *fetcher;
 #if GTL_USE_SESSION_FETCHER
   if (uploadLocationURL) {
     // Resuming with the session fetcher and a file URL.
@@ -2346,7 +2346,7 @@ totalBytesExpectedToSend:(NSInteger)totalBytesExpected {
   GTL_DEBUG_ASSERT(canPause, @"unpauseable ticket");
 
   if (canPause) {
-    [(GTLUploadFetcherClass *)objectFetcher_ pauseFetching];
+    [(GTLUploadFetcher2Class *)objectFetcher_ pauseFetching];
   }
 }
 
@@ -2355,7 +2355,7 @@ totalBytesExpectedToSend:(NSInteger)totalBytesExpected {
   GTL_DEBUG_ASSERT(canResume, @"unresumable ticket");
 
   if (canResume) {
-    [(GTLUploadFetcherClass *)objectFetcher_ resumeFetching];
+    [(GTLUploadFetcher2Class *)objectFetcher_ resumeFetching];
   }
 }
 
@@ -2364,7 +2364,7 @@ totalBytesExpectedToSend:(NSInteger)totalBytesExpected {
   GTL_DEBUG_ASSERT(isPausable, @"unpauseable ticket");
 
   if (isPausable) {
-    return [(GTLUploadFetcherClass *)objectFetcher_ isPaused];
+    return [(GTLUploadFetcher2Class *)objectFetcher_ isPaused];
   }
   return NO;
 }
